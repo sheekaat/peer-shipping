@@ -1,0 +1,41 @@
+{
+  "id": "abc123",
+  "zipCode": 543216,
+  "shipments": {
+    "item": "Utilities - Split dhals",
+    "desc": "Securely packed and ready to ship",
+    "weight": 10,
+    "weightDimension": "Kgs",
+    "price": 30,
+    "priceDimension": "Rs",
+    "FirmOnPrice": true,
+    "photos": [
+      "image1",
+      "image2"
+    ],
+    "Location": [
+      {
+        "type": "pickup",
+        "Address": {
+          "address1": "1-11/23, Rombhat colony",
+          "address2": "Opp Bus stand",
+          "city": "Secunderabad",
+          "state": "Telangana",
+          "Country": "India",
+          "zipCode": 567890
+        }
+      },
+      {
+        "type": "dropoff",
+        "Address": {
+          "address1": "1/11/22",
+          "address2": "Behind Railway station",
+          "city": "Guntur",
+          "state": "AndhraPradesh",
+          "Country": "India",
+          "zipCode": 522345
+        }
+      }
+    ]
+  }
+}
